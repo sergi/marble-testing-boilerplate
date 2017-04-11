@@ -26,8 +26,8 @@ global.it = function(description, cb, timeout) {
   }
 };
 
-describe("#indexOf()", function() {
-  it("should filter with an always-true predicate", () => {
+describe("Marbe Testing", function() {
+  it("Same marble sequence should pass", () => {
      const source = hot("--a--b--|");
      const expected = "--a--b--|";
 
